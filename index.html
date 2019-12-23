@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>gulp-scss-starter</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="../img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="../img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="../img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="../img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="../img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="../img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="../img/favicons/apple-touch-icon-1024x1024.png">
+
+    <link rel="apple-touch-icon" sizes="1024x1024" href="../img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="../img/favicons/apple-touch-icon-1024x1024.png">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.min.css">
+</head>
+
+<body>
+    <header class="first_header">
+        <div class="click_gamburger"><img src="img/booking.png" alt="menu"></div>
+        <div class="logo">Airbooking</div>
+        <div class="search"><img src="img/search.png" alt="menu"></div>
+    </header>
+    <section class="first_block">
+
+        <div class="fb"><img src="img/fb.png" alt="" srcset=""></div>
+        <div class="picture">
+            <img class="main_pic" src="img/Layer1.png" alt="">
+            <img class="gradient" src="img/Layer2.png" alt="">
+            <div class="content">
+                <h1 class="main-text-first-page">A Brand New Hotel<span>Beyond Ordinary</span></h1>
+                <a href="#" class="explore">EXPLORE IT</a>
+                <div class="flex_for_time">
+                    <div class="choose_your_day">
+                        <span class="first_li">Check in</span>
+                        <span class="middle">16</span>
+                        <select class="select mounth">
+                                <option value="january" rel="icon-temperature">Jan</option>
+                                <option value="february">Feb</option>
+                                <option value="march">Mar</option>
+                                <option value="april">Apr</option>
+                                <option value="may">May</option>
+                                <option value="june">June</option>
+                                <option value="july">July</option>
+                                <option value="august">Aug</option>
+                                <option value="september">Sep</option>
+                                <option value="october">Oct</option>
+                                <option value="november">Nov</option>
+                                <option value="december">Dec</option>
+                            </select>
+                    </div>
+                    <div class="choose_your_day">
+                        <span class="first_li">Check out</span>
+                        <span class="middle">26</span>
+                        <select class="select mounth">
+                                <option value="january" rel="icon-temperature">Jan</option>
+                                <option value="february">Feb</option>
+                                <option value="march">Mar</option>
+                                <option value="april">Apr</option>
+                                <option value="may">May</option>
+                                <option value="june">June</option>
+                                <option value="july">July</option>
+                                <option value="august">Aug</option>
+                                <option value="september">Sep</option>
+                                <option value="october">Oct</option>
+                                <option value="november">Nov</option>
+                                <option value="december">Dec</option>
+                            </select>
+                    </div>
+                    <div class="choose_your_day">
+                        <span class="first_li">Guest</span>
+                        <span class="middle">1</span>
+                        <select id="select-box1" class="select mounth">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                         </select>
+
+                    </div>
+                    <div class="btn_for_data">
+                        Check Availability
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="second_block">
+        <h2 class="section_title">Our Rooms</h2>
+        <div class="flex_rooms">
+            <div class="rooms_relative">
+                <img src="img/room1.png" alt="room">
+                <div class="costs">
+                    <img src="img/sdr-shadow.png" alt="shadow">
+                    <div class="shadow_cost">
+                        <a href="#">Falimy room</a>
+                        <span>From 30$</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rooms_relative">
+                <img src="img/room2.png" alt="room">
+                <div class="costs">
+                    <img src="img/sdr-shadow.png" alt="shadow">
+                    <div class="shadow_cost">
+                        <a href="#">Falimy room</a>
+                        <span>From 30$</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rooms_relative">
+                <img src="img/room3.png" alt="room">
+                <div class="costs">
+                    <img src="img/sdr-shadow.png" alt="shadow">
+                    <div class="shadow_cost">
+                        <a href="#">Falimy room</a>
+                        <span>From 30$</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rooms_relative">
+                <img src="img/room4.png" alt="room">
+                <div class="costs">
+                    <img src="img/sdr-shadow.png" alt="shadow">
+                    <div class="shadow_cost">
+                        <a href="#">Falimy room</a>
+                        <span>From 30$</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rooms_relative">
+                <img src="img/room5.png" alt="room">
+                <div class="costs">
+                    <img src="img/sdr-shadow.png" alt="shadow">
+                    <div class="shadow_cost">
+                        <a href="#">Falimy room</a>
+                        <span>From 30$</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rooms_relative">
+                <img src="img/room6.png" alt="room">
+                <div class="costs">
+                    <img src="img/sdr-shadow.png" alt="shadow">
+                    <div class="shadow_cost">
+                        <a href="#">Falimy room</a>
+                        <span>From 30$</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="therd_block">
+        <img src="img/bg.png" alt="">
+        <div class="therd_block_content_second">
+            <img src="img/Layer1.png" alt="Our rooms">
+            <div class="therd_block_content_second_text">
+                <h3 class="therd_block_content_second_explore">Explorer Your Best Room</h3>
+                <p class="therd_block_content_second_explore_main_text">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis. Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.
+                    Phasellus enim libero.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="forth_block">
+        <h2 class="section_title servire_title">Our Services</h2>
+        <div class="servic">
+            <div class="servic_block">
+                <img src="img/restor.png" alt="restorant">
+                <span class="servic_block_title">Restaurant</span>
+                <p class="servic_block_text">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+            </div>
+            <div class="servic_block">
+                <img src="img/ball.png" alt="sport">
+                <span class="servic_block_title">Sports Club</span>
+                <p class="servic_block_text">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+            </div>
+            <div class="servic_block">
+                <img src="img/car.png" alt="car">
+                <span class="servic_block_title">Pick up</span>
+                <p class="servic_block_text">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+            </div>
+        </div>
+    </section>
+    <section class="fifth_block">
+        <div class="img_bed"><img src="img/secroom.png" alt="find youe rooms">
+            <div class="blue_block">
+                <h2 class="blue_block_section_title_for_find">Find Your Best Room Here</h2>
+                <p class="blue_block_main_text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                    quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+                <p class="blue_block_main_text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam.</p>
+                <div class="blue_block_btn"><a href="#">Read More</a></div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="sixth_block">
+        <h2 class="section_title">From The Guest</h2>
+        <div class="reviews">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+            quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</div>
+        <div class="profile">
+            <img src="img/men.png" alt="">
+            <div class="profile_wrap_div">
+                <span>Andrew Strauss</span>
+                <span>From New York, USA</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="seventh_block">
+        <img src="img/grd.png" alt="gradient" class="gradient_for_play">
+        <div class="play_video">
+            <h2 class="play_video_title">Keep Clam And <span>Enjoy Vaction</span> </h2>
+            <div class="play_video_btn"><img src="img/btn.png" alt="btn" class="play"></div>
+        </div>
+    </section>
+
+    <section class="eigth_block">
+        <h2 class="section_title latest_news_title">Latest News</h2>
+        <div class="flex_slider">
+            <div class="rm_bl">
+                <img src="img/room8.png" alt="room">
+                <div class="rm_bl_slider_post down_slider">
+                    <h4 class="rm_bl_slider_post_title">This is a slider post</h4>
+                    <span>June 18, 2018</span>
+                    <p class="text_slider">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+                    <a href="#" class="rm_bl_btn_slider">Read More</a>
+                </div>
+            </div>
+            <div class="rm_bl">
+                <img src="img/room7.png" alt="room">
+                <div class="rm_bl_slider_shadow ">
+                    <img src="img/sdr-shadow.png" alt="shadow">
+                    <div class="rm_bl_slider_shadow_cost">
+                        <a href="#" class="rm_bl_slider_shadow_cost_link">This is a slider post</a>
+                        <span>June 18, 2018</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rm_bl">
+                <img src="img/room7.png" alt="room">
+                <div class="rm_bl_slider_post down_slider">
+                    <h4 class="rm_bl_slider_post_title">This is a slider post</h4>
+                    <span>June 18, 2018</span>
+                    <p class="text_slider">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+                    <a href="#" class="rm_bl_btn_slider">Read More</a>
+                </div>
+            </div>
+            <div class="rm_bl">
+                <img src="img/room8.png" alt="room">
+                <div class="rm_bl_slider_post up_slider">
+                    <h4 class="rm_bl_slider_post_title">This is a slider post</h4>
+                    <span>June 18, 2018</span>
+                    <p class="text_slider">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+                    <a href="#" class="rm_bl_btn_slider">Read More</a>
+                </div>
+            </div>
+            <div class="rm_bl">
+                <img src="img/room7.png" alt="room">
+                <div class="rm_bl_slider_shadow">
+                    <img src="img/sdr-shadow.png" alt="shadow">
+                    <div class="rm_bl_slider_shadow_cost">
+                        <a href="#" class="rm_bl_slider_shadow_cost_link">This is a slider post</a>
+                        <span>June 18, 2018</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rm_bl">
+                <img src="img/room8.png" alt="room">
+                <div class="rm_bl_slider_post up_slider">
+                    <h4 class="rm_bl_slider_post_title">This is a slider post</h4>
+                    <span>June 18, 2018</span>
+                    <p class="text_slider">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+                    <a href="#" class="rm_bl_btn_slider">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="footer_adress_block">
+            <div class="adress flex_adress_block">
+                <h2 class="logo">Airbooking</h2>
+                <p>Lorem ipsum dolor sit amet, conser adipiscing elit. In consectetur tincidunt dolor.</p>
+                <div class="point">
+                    <div class="adress_img">
+                        <img src="img/point.png" alt="point" class="img_point">
+                        <img src="img/call.png" alt="call" class="img_point">
+                    </div>
+                    <div>
+                        <ul class="adress_text">
+                            <li>2345 Lyon Avenue</li>
+                            <li>Boston, MA, Massachusetts</li>
+                            <li>508-960-5584</li>
+                            <li>857-366-4240</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="quick_list flex_adress_block">
+                <h3 class="footer_title">Quick Links</h3>
+                <div class="links">
+                    <ul>
+                        <li>Accomodation</li>
+                        <li>Food & Drinks</li>
+                        <li>Beach Venues</li>
+                        <li>Amenities</li>
+                    </ul>
+                    <ul>
+                        <li>Noordwijk</li>
+                        <li>Wellness</li>
+                        <li>Manifesto</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="connect flex_adress_block">
+                <h3 class="footer_title">Connect With Us</h3>
+                <div class="fb_footer">
+                    <img src="img/cn.png" alt="cn">
+                </div>
+            </div>
+        </div>
+        <p class="bottom_text">© 2018 Airbooking - All Rights Reserved </p>
+    </footer>
+    <main>
+        <script src="js/main.min.js"></script>
+        <script src="js/vendor.min.js"></script>
+</body>
+
+</html>
